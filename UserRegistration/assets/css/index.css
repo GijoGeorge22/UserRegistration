@@ -1,0 +1,57 @@
+.container {
+    background-color: lightgray;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+.reg-form{
+    width:fit-content;
+    background-color: darkgrey;
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.element{
+margin-right: 10px;
+padding: 20px;
+display: flex;
+background-color: lightgrey;
+width:300px;
+border-radius: 10px;
+border:solid 1px black
+}
+.element .name{
+    padding-right: 5px;
+}
+
+#SaveData{
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: darkgray;
+  }
